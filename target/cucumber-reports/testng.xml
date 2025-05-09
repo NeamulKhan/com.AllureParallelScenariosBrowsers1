@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testng-results failed="2" passed="0" skipped="0" total="2">
-    <suite duration-ms="510" name="io.cucumber.core.plugin.TestNGFormatter">
-        <test duration-ms="510" name="io.cucumber.core.plugin.TestNGFormatter">
+<testng-results failed="0" passed="2" skipped="0" total="2">
+    <suite duration-ms="3236" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="3236" name="io.cucumber.core.plugin.TestNGFormatter">
             <class name="Homepage image slider functionality">
-                <test-method duration-ms="17" finished-at="2025-05-08T02:25:07.561829500Z" name="Verify homepage image slider is displayed" started-at="2025-05-08T02:25:07.392329900Z" status="FAIL">
-                    <exception class="java.lang.NullPointerException">
-                        <message><![CDATA[Given I am on the website homepage..........................................skipped
-Then the homepage image slider should be visible............................skipped
-]]></message>
-                        <full-stacktrace><![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-	at utilityAllureParallelScenariosBrowsers1.BaseClassAllureParallelScenariosBrowsers1.allureParallelScenariosBrowsers1_initializeDriver(BaseClassAllureParallelScenariosBrowsers1.java:91)
-	at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBrowsers1.setUp(HooksAllureParallelScenariosBrowsers1.java:23)
-]]></full-stacktrace>
-                    </exception>
-                </test-method>
-                <test-method duration-ms="14" finished-at="2025-05-08T02:25:07.572800800Z" name="Verify image slider automatically changes images" started-at="2025-05-08T02:25:07.392329900Z" status="FAIL">
-                    <exception class="java.lang.NullPointerException">
-                        <message><![CDATA[Given I am on the website homepage..........................................skipped
-When I wait for the image slider to change..................................skipped
-Then the displayed image should be different from the previous one..........skipped
-]]></message>
-                        <full-stacktrace><![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-	at utilityAllureParallelScenariosBrowsers1.BaseClassAllureParallelScenariosBrowsers1.allureParallelScenariosBrowsers1_initializeDriver(BaseClassAllureParallelScenariosBrowsers1.java:91)
-	at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBrowsers1.setUp(HooksAllureParallelScenariosBrowsers1.java:23)
-]]></full-stacktrace>
-                    </exception>
-                </test-method>
+                <test-method duration-ms="2722" finished-at="2025-05-09T01:45:03.626346200Z" name="Verify homepage image slider is displayed" started-at="2025-05-09T01:45:00.743242900Z" status="PASS"/>
+                <test-method duration-ms="2754" finished-at="2025-05-09T01:45:03.658261200Z" name="Verify image slider automatically changes images" started-at="2025-05-09T01:45:00.743242900Z" status="PASS"/>
             </class>
         </test>
     </suite>

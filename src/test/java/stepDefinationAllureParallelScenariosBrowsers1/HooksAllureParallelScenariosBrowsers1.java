@@ -18,10 +18,18 @@ public class HooksAllureParallelScenariosBrowsers1 extends BaseClassAllureParall
 	@Before
 	
 	public void setUp(Scenario scenario) {
+		
+	//	BaseClassAllureParallelScenariosBrowsers1.loadConfig(); // Load config before using it
 		logger.info("Starting scenario: {}", scenario.getName());
-		System.out.println("Launching " + getBrowser() + " for scenario: " + scenario.getName());
-		allureParallelScenariosBrowsers1_initializeDriver(getBrowser());
+		String browser = System.getProperty("browser"); // Get from TestNG parameter
+		
+		
+		
+		System.out.println("Launching " + browser + " for scenario: " + scenario.getName());
+		allureParallelScenariosBrowsers1_initializeDriver(browser);
+		
 		System.out.println("Running scenario on Thread ID: " + Thread.currentThread().getId());
+	//	allureParallelScenarios1_launchURL();
 	}
 	
 	@After

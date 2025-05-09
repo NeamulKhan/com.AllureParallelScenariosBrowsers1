@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class BaseClassAllureParallelScenariosBrowsers1 {
 	
 	public static Properties allureParallelScenariosBrowsers1_prop;
-	public static WebDriverWait wait;
+	private static ThreadLocal<WebDriverWait> wait = new ThreadLocal<>();
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	private static ThreadLocal<String>browserName = new ThreadLocal<>();
 	private static ThreadLocal<String>osDetails = new ThreadLocal<>();
@@ -24,7 +24,7 @@ public class BaseClassAllureParallelScenariosBrowsers1 {
 	private static Logger logger = LoggerFactory.getLogger(BaseClassAllureParallelScenariosBrowsers1.class);
 	
 	
-	public BaseClassAllureParallelScenariosBrowsers1 () {
+	static {
 		
 		try {
 			
@@ -64,7 +64,9 @@ public class BaseClassAllureParallelScenariosBrowsers1 {
 				return osDetails.get();
 				}	
 		
-		
+		public static WebDriverWait getWait() {
+		    return wait.get();
+		}
 	
 	// Ensure method is static to be called before every test scenario
 	
@@ -81,6 +83,8 @@ public class BaseClassAllureParallelScenariosBrowsers1 {
 		
 		osDetails.set(osInfo); //Store OS details in ThreadLocal
 		browserName.set(browser); // Store browser name in ThreadLoca
+		
+		logger.info("Launching test on browser: {}, OS: {}", browserName.get(), osDetails.get());
 		
 		logger.info("**** Setting up WebDriver for browser: {} on OS: {} ****", browser, osInfo);
 		
@@ -106,7 +110,7 @@ public class BaseClassAllureParallelScenariosBrowsers1 {
 			
 	
 
-			wait = new WebDriverWait(getDriver(),Duration.ofSeconds(10)); // Initialize WebDriverWait here
+            wait.set(new WebDriverWait(getDriver(), Duration.ofSeconds(10))); // Initialize WebDriverWait here
 			getDriver().manage().window().maximize();
 			getDriver().manage().deleteAllCookies();
 
@@ -123,11 +127,22 @@ public class BaseClassAllureParallelScenariosBrowsers1 {
 	 public static void quitDriver() {
 		 
 		 logger.info("Closing browser: {}", getBrowser());
+
 	        if (driver.get() != null) {
 	            driver.get().quit();
 	            driver.remove();// remove from ThreadLocal to avoid memory leaks
 				System.out.println("Test completed successfully and browser closed.");
-	        }else {
+	        }
+	        if (browserName.get() != null) {
+	            browserName.remove();
+	        }
+	        if (osDetails.get() != null) {
+	            osDetails.remove();
+	        }				
+			if (wait.get()!= null) {
+				wait.remove(); 
+			}
+	        else {
 		        System.out.println("No active driver found to quit.");
 		    }
 	 }

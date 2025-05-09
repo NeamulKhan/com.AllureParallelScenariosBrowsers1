@@ -1,112 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-07T22:25:06 EDT" name="ScenariosBrowsersParallelExecution" finished-at="2025-05-07T22:25:08 EDT" duration-ms="2808">
+  <suite started-at="2025-05-08T21:44:59 EDT" name="ScenariosBrowsersParallelExecution" finished-at="2025-05-08T21:45:04 EDT" duration-ms="5334">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@3f736a16]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@22752544]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-05-07T22:25:06 EDT" name="EdgeTests" finished-at="2025-05-07T22:25:08 EDT" duration-ms="2808">
+    <test started-at="2025-05-08T21:44:59 EDT" name="ChromeTests" finished-at="2025-05-08T21:45:04 EDT" duration-ms="5321">
       <class name="testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@22752544]" started-at="2025-05-07T22:25:06 EDT" name="setUpClass" finished-at="2025-05-07T22:25:07 EDT" duration-ms="969" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:44:59 EDT" name="setUpClass" finished-at="2025-05-08T21:45:00 EDT" duration-ms="876" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4ba02375]]>
+                <![CDATA[org.testng.TestRunner@6f2e1024]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@22752544]" started-at="2025-05-07T22:25:07 EDT" name="setupBrowser" finished-at="2025-05-07T22:25:07 EDT" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@22752544]" started-at="2025-05-07T22:25:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-07T22:25:07 EDT" duration-ms="374" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify homepage image slider is displayed"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Homepage image slider functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at utilityAllureParallelScenariosBrowsers1.BaseClassAllureParallelScenariosBrowsers1.allureParallelScenariosBrowsers1_initializeDriver(BaseClassAllureParallelScenariosBrowsers1.java:91)
-at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBrowsers1.setUp(HooksAllureParallelScenariosBrowsers1.java:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@22752544]" started-at="2025-05-07T22:25:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-07T22:25:07 EDT" duration-ms="374" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify image slider automatically changes images"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Homepage image slider functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at utilityAllureParallelScenariosBrowsers1.BaseClassAllureParallelScenariosBrowsers1.allureParallelScenariosBrowsers1_initializeDriver(BaseClassAllureParallelScenariosBrowsers1.java:91)
-at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBrowsers1.setUp(HooksAllureParallelScenariosBrowsers1.java:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@22752544]" started-at="2025-05-07T22:25:07 EDT" name="tearDownClass" finished-at="2025-05-07T22:25:08 EDT" duration-ms="1381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1 -->
-    </test> <!-- EdgeTests -->
-    <test started-at="2025-05-07T22:25:06 EDT" name="ChromeTests" finished-at="2025-05-07T22:25:08 EDT" duration-ms="2808">
-      <class name="testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@3f736a16]" started-at="2025-05-07T22:25:06 EDT" name="setUpClass" finished-at="2025-05-07T22:25:07 EDT" duration-ms="970" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@32e652b6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@3f736a16]" started-at="2025-05-07T22:25:07 EDT" name="setupBrowser" finished-at="2025-05-07T22:25:07 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:00 EDT" name="setupBrowser" finished-at="2025-05-08T21:45:00 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +33,7 @@ at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBr
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@3f736a16]" started-at="2025-05-07T22:25:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-07T22:25:07 EDT" duration-ms="374" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3079" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,21 +46,10 @@ at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBr
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at utilityAllureParallelScenariosBrowsers1.BaseClassAllureParallelScenariosBrowsers1.allureParallelScenariosBrowsers1_initializeDriver(BaseClassAllureParallelScenariosBrowsers1.java:91)
-at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBrowsers1.setUp(HooksAllureParallelScenariosBrowsers1.java:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@3f736a16]" started-at="2025-05-07T22:25:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-07T22:25:07 EDT" duration-ms="374" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3079" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,25 +62,76 @@ at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBr
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at utilityAllureParallelScenariosBrowsers1.BaseClassAllureParallelScenariosBrowsers1.allureParallelScenariosBrowsers1_initializeDriver(BaseClassAllureParallelScenariosBrowsers1.java:91)
-at stepDefinationAllureParallelScenariosBrowsers1.HooksAllureParallelScenariosBrowsers1.setUp(HooksAllureParallelScenariosBrowsers1.java:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@3f736a16]" started-at="2025-05-07T22:25:07 EDT" name="tearDownClass" finished-at="2025-05-07T22:25:08 EDT" duration-ms="1379" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:03 EDT" name="tearDownClass" finished-at="2025-05-08T21:45:04 EDT" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1 -->
     </test> <!-- ChromeTests -->
+    <test started-at="2025-05-08T21:44:59 EDT" name="EdgeTests" finished-at="2025-05-08T21:45:04 EDT" duration-ms="5334">
+      <class name="testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:44:59 EDT" name="setUpClass" finished-at="2025-05-08T21:45:00 EDT" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@536d97f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:00 EDT" name="setupBrowser" finished-at="2025-05-08T21:45:00 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify image slider automatically changes images"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage image slider functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify homepage image slider is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage image slider functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:03 EDT" name="tearDownClass" finished-at="2025-05-08T21:45:04 EDT" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1 -->
+    </test> <!-- EdgeTests -->
   </suite> <!-- ScenariosBrowsersParallelExecution -->
 </testng-results>

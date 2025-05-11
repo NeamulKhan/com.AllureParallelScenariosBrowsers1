@@ -24,11 +24,12 @@ public class BaseClassAllureParallelScenariosBrowsers1 {
 	private static Logger logger = LoggerFactory.getLogger(BaseClassAllureParallelScenariosBrowsers1.class);
 	
 	
-	static {
-		
+	public static void loadProperties() {
+	
+	 if (allureParallelScenariosBrowsers1_prop == null) {
 		try {
 			
-			FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/allureParallelScenarios1.config/allureParallelScenarios1.properties");
+			FileInputStream file = new FileInputStream(System.getProperty("user.dir") +"/src/test/resources/allureParallelScenariosBrowsers1.config/allureParallelScenariosBrowsers1.properties");
 			
 			allureParallelScenariosBrowsers1_prop = new Properties();
 			allureParallelScenariosBrowsers1_prop.load(file);
@@ -39,8 +40,9 @@ public class BaseClassAllureParallelScenariosBrowsers1 {
 		  catch (IOException e) {
 		    System.err.println("Error loading properties file: " + e.getMessage());
 		}
-		
-		}
+	 
+	 }
+	}
 	
 	//Getter method to retrieve WebDriver instance
 		public static WebDriver getDriver() {

@@ -2,89 +2,27 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-08T21:44:59 EDT" name="ScenariosBrowsersParallelExecution" finished-at="2025-05-08T21:45:04 EDT" duration-ms="5334">
+  <suite started-at="2025-05-10T21:17:40 EDT" name="ScenariosBrowsersParallelExecution" finished-at="2025-05-10T21:17:47 EDT" duration-ms="6607">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-05-08T21:44:59 EDT" name="ChromeTests" finished-at="2025-05-08T21:45:04 EDT" duration-ms="5321">
+    <test started-at="2025-05-10T21:17:40 EDT" name="EdgeTests" finished-at="2025-05-10T21:17:47 EDT" duration-ms="6607">
       <class name="testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:44:59 EDT" name="setUpClass" finished-at="2025-05-08T21:45:00 EDT" duration-ms="876" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-10T21:17:40 EDT" name="setUpClass" finished-at="2025-05-10T21:17:41 EDT" duration-ms="870" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6f2e1024]]>
+                <![CDATA[org.testng.TestRunner@526b2f3e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:00 EDT" name="setupBrowser" finished-at="2025-05-08T21:45:00 EDT" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3079" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify homepage image slider is displayed"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Homepage image slider functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3079" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify image slider automatically changes images"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Homepage image slider functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-08T21:45:03 EDT" name="tearDownClass" finished-at="2025-05-08T21:45:04 EDT" duration-ms="1282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1 -->
-    </test> <!-- ChromeTests -->
-    <test started-at="2025-05-08T21:44:59 EDT" name="EdgeTests" finished-at="2025-05-08T21:45:04 EDT" duration-ms="5334">
-      <class name="testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:44:59 EDT" name="setUpClass" finished-at="2025-05-08T21:45:00 EDT" duration-ms="876" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@536d97f8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:00 EDT" name="setupBrowser" finished-at="2025-05-08T21:45:00 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-10T21:17:41 EDT" name="setupBrowser" finished-at="2025-05-10T21:17:41 EDT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,23 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3109" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify image slider automatically changes images"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Homepage image slider functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-08T21:45:03 EDT" duration-ms="3079" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-10T21:17:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-10T21:17:45 EDT" duration-ms="4269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,11 +49,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-08T21:45:03 EDT" name="tearDownClass" finished-at="2025-05-08T21:45:04 EDT" duration-ms="1276" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-10T21:17:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-10T21:17:44 EDT" duration-ms="3657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify image slider automatically changes images"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage image slider functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@7f6874f2]" started-at="2025-05-10T21:17:45 EDT" name="tearDownClass" finished-at="2025-05-10T21:17:47 EDT" duration-ms="1403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1 -->
     </test> <!-- EdgeTests -->
+    <test started-at="2025-05-10T21:17:40 EDT" name="ChromeTests" finished-at="2025-05-10T21:17:46 EDT" duration-ms="6600">
+      <class name="testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-10T21:17:40 EDT" name="setUpClass" finished-at="2025-05-10T21:17:41 EDT" duration-ms="870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7343922c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-10T21:17:41 EDT" name="setupBrowser" finished-at="2025-05-10T21:17:41 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-10T21:17:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-10T21:17:45 EDT" duration-ms="4269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify image slider automatically changes images"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage image slider functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-10T21:17:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-10T21:17:45 EDT" duration-ms="4467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify homepage image slider is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage image slider functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1@4012d5bc]" started-at="2025-05-10T21:17:45 EDT" name="tearDownClass" finished-at="2025-05-10T21:17:46 EDT" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunnerAllureParallelScenariosBrowsers1.TestRunnerAllureParallelScenariosBrowsers1 -->
+    </test> <!-- ChromeTests -->
   </suite> <!-- ScenariosBrowsersParallelExecution -->
 </testng-results>

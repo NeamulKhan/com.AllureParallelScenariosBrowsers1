@@ -23,7 +23,7 @@ public class TestRunnerAllureParallelScenariosBrowsers1 extends AbstractTestNGCu
 	
 	@Parameters("browser")
     @BeforeClass(alwaysRun = true)
-    public void setupBrowser (String browser) { //(@Optional("chrome") String browser) 
+    public void setupBrowser (@Optional("chrome")  String browser) { //(@Optional("chrome") String browser) 
         System.setProperty("browser", browser);  // Make browser accessible in Hooks
     }
 

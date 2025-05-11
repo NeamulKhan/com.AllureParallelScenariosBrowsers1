@@ -16,7 +16,7 @@ public class ImageSliderAllureParallelScenariosBrowsers1 extends BaseClassAllure
 	public void i_am_on_the_website_homepage() {
 	   
 		logger.info("Thread ID: {} - Verifying homepage title", Thread.currentThread().getId());
-	//	allureParallelScenarios1_launchURL();
+		allureParallelScenarios1_launchURL();
 		
 	}
 

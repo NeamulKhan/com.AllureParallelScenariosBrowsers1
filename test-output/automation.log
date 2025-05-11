@@ -1,27 +1,134 @@
-2025-05-08 21:44:59.575 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+2025-05-10 21:16:25.235 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\workspaces\projects\com.AllureParallelScenariosBrowsers1\testng.xml
 
-2025-05-08 21:45:00.781 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
-2025-05-08 21:45:00.781 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
-2025-05-08 21:45:00.781 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
-2025-05-08 21:45:00.781 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
-2025-05-08 21:45:00.784 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
-2025-05-08 21:45:00.784 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
-2025-05-08 21:45:00.785 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
-2025-05-08 21:45:00.785 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
-2025-05-08 21:45:03.419 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 36 - Verifying homepage title
-2025-05-08 21:45:03.419 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 38 - Verifying homepage title
-2025-05-08 21:45:03.419 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 37 - Verifying homepage title
-2025-05-08 21:45:03.419 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 35 - Verifying homepage title
-2025-05-08 21:45:03.425 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
-2025-05-08 21:45:03.425 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
-2025-05-08 21:45:03.425 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
-2025-05-08 21:45:03.425 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
-2025-05-08 21:45:03.426 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
-2025-05-08 21:45:03.426 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
-2025-05-08 21:45:03.426 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
-2025-05-08 21:45:03.426 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
-2025-05-08 21:45:03.426 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: {}
-2025-05-08 21:45:03.426 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: {}
-2025-05-08 21:45:03.426 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: {}
-2025-05-08 21:45:03.426 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: {}
+2025-05-10 21:16:26.399 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:16:26.399 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:16:26.399 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:16:26.400 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:16:26.403 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:16:26.403 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:16:26.403 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:16:26.404 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:16:26.404 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:16:26.404 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:16:26.404 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:16:26.404 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:16:28.934 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 35 - Verifying homepage title
+2025-05-10 21:16:28.934 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 38 - Verifying homepage title
+2025-05-10 21:16:28.934 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 36 - Verifying homepage title
+2025-05-10 21:16:28.934 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 37 - Verifying homepage title
+2025-05-10 21:16:28.935 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:16:28.935 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:16:28.935 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:16:28.935 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:16:29.686 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:16:29.686 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:16:29.687 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:16:29.835 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:16:29.835 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:16:29.835 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:16:29.866 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:16:29.867 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:16:29.867 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:16:30.509 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:16:30.509 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:16:30.509 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:17:40.370 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\workspaces\projects\com.AllureParallelScenariosBrowsers1\testng.xml
+
+2025-05-10 21:17:41.544 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:17:41.544 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:17:41.544 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:17:41.544 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:17:41.548 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:17:41.548 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:17:41.548 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:17:41.548 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:17:41.548 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:17:41.548 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:17:41.548 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:17:41.548 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:17:44.111 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 38 - Verifying homepage title
+2025-05-10 21:17:44.111 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 36 - Verifying homepage title
+2025-05-10 21:17:44.111 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 37 - Verifying homepage title
+2025-05-10 21:17:44.111 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 35 - Verifying homepage title
+2025-05-10 21:17:44.111 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:17:44.111 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:17:44.111 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:17:44.111 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:17:44.770 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:17:44.770 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:17:44.770 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:17:45.346 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:17:45.347 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:17:45.347 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:17:45.393 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:17:45.394 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:17:45.394 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:17:45.648 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:17:45.648 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:17:45.648 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:27:02.417 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:27:02.417 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:27:02.417 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:27:02.417 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:27:02.426 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:02.426 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:02.426 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:02.426 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:02.426 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: chrome, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:02.426 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:02.426 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:02.427 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:05.070 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 38 - Verifying homepage title
+2025-05-10 21:27:05.070 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 40 - Verifying homepage title
+2025-05-10 21:27:05.070 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 37 - Verifying homepage title
+2025-05-10 21:27:05.070 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 39 - Verifying homepage title
+2025-05-10 21:27:05.070 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:27:05.070 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:27:05.070 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:27:05.070 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: chrome
+2025-05-10 21:27:06.868 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:27:06.868 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:27:06.868 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:27:06.895 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:27:06.895 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:27:06.895 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:27:07.088 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:27:07.089 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:27:07.090 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:27:07.169 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:27:07.170 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:27:07.171 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: chrome
+2025-05-10 21:27:27.721 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:27:27.721 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:27:27.721 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify homepage image slider is displayed
+2025-05-10 21:27:27.721 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Starting scenario: Verify image slider automatically changes images
+2025-05-10 21:27:27.730 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: edge, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:27.730 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: edge, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:27.730 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: edge, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:27.730 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching test on browser: edge, OS: Windows 10 10.0 (amd64)
+2025-05-10 21:27:27.731 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: edge on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:27.731 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: edge on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:27.731 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: edge on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:27.731 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - **** Setting up WebDriver for browser: edge on OS: Windows 10 10.0 (amd64) ****
+2025-05-10 21:27:29.791 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 37 - Verifying homepage title
+2025-05-10 21:27:29.792 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: edge
+2025-05-10 21:27:31.538 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 40 - Verifying homepage title
+2025-05-10 21:27:31.540 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: edge
+2025-05-10 21:27:31.685 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 39 - Verifying homepage title
+2025-05-10 21:27:31.687 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: edge
+2025-05-10 21:27:31.733 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenariosBrowsers1 - Thread ID: 38 - Verifying homepage title
+2025-05-10 21:27:31.733 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Launching URL on browser: edge
+2025-05-10 21:27:31.864 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:27:31.865 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:27:31.865 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: edge
+2025-05-10 21:27:32.733 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:27:32.734 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:27:32.734 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: edge
+2025-05-10 21:27:32.796 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify homepage image slider is displayed
+2025-05-10 21:27:32.796 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+2025-05-10 21:27:32.796 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: edge
+2025-05-10 21:27:33.394 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - Scenario passed: Verify image slider automatically changes images
+2025-05-10 21:27:33.394 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenariosBrowsers1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
+2025-05-10 21:27:33.394 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenariosBrowsers1 - Closing browser: edge
